@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Deliverables</title>
+        <link rel="stylesheet" href="css/Deliverables.css" type="text/css">
+        <script src="javascript/Deliverables.js"></script>
+
+    </head>
+
+
+    <body>
+
+            <div class ="Tabs" onclick="location.href='User.html';" >Home</div>
+            <div class ="Tabs" onclick="location.href='Deliverables.html';">Deliverables</div>
+            <div class ="Tabs" onclick="location.href='Tasks.html';">Tasks</div>
+            <div class ="Tabs" onclick="location.href='Action Items.html';">Action Items</div>
+            <div class ="Tabs" onclick="location.href='Issues.html';">Issues</div>
+    
+        <h1 id="title">Deliverables</h1>
+
+            <div class="flex-container">
+                <div onclick="addRow()">Create</div>
+                <div onclick="deleteRow()">Delete</div>
+                <div>Edit</div>
+            </div>
+
+            
+
+            <table id="myTable">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Due Date</th>
+                    <th>Requirements</th>
+                    <th>Tasks</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Fix button</td>
+                    <td>Button not pressed</td>
+                    <td>1/5/20</td>
+                    <td>Responsive</td>
+                    <td>Talk with Hr</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Email Error</td>
+                    <td>Emails not sent</td>
+                    <td>3/10/20</td>
+                    <td>Receive emails</td>
+                    <td>Check Server</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Website broken</td>
+                    <td>Site won't load</td>
+                    <td>5/20/20</td>
+                    <td>Functional Website</td>
+                    <td>Call IT</td>
+                </tr>
+
+
+            </table>
+    </body>
+</html>
