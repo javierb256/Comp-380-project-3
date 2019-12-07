@@ -1,0 +1,93 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.1000.13"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    Id="8f845c62-7dde-4315-84d9-f462a08e591e">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="a5fd4e5d-4306-4286-9598-6246e3c1800f">
+            <Content.Layers>
+                <Layer Id="efb7c9a3-e562-45e6-98fa-f71c4c587bcc" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="bf38b51c-53b7-46d1-a09a-35c5c68e9388" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="d29f56d1-a1e3-460b-8327-03423db92672" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="73d3c19e-a7f8-49de-ad95-75e8ff0fe333" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="12/05/2019 02:43:55" Id="c0408ba8-f6fc-461a-bd85-e1ef49fe3a6b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="50b9d07b-65c8-4d20-a719-721a383df6dd">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="efb7c9a3-e562-45e6-98fa-f71c4c587bcc">
+                            <Add.Item>
+                                <ContainerBox Id="7eca19aa-8d97-4ebc-bef6-21469de64652" Panel.Bounds="349,150,300{5,2147483647},118{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="f5a5dcaf-a4e1-4ec9-ae3e-2c9cef225b4e">
+                                            <Container.Children>
+                                                <Label RichText="&lt;Run FontSize=&quot;36&quot; &gt;Welcome (User)&lt;/Run&gt;" Id="37f6546e-def7-4e6f-a8b1-dc0bc716ee1c" Panel.Bounds="20,20,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="efb7c9a3-e562-45e6-98fa-f71c4c587bcc">
+                            <Add.Item>
+                                <Tabs Id="a864afdf-f8d0-4049-8708-ead46a95e201" Panel.Bounds="356,79,370{5,2147483647},30{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Home" Id="8a436761-8662-4d5a-a220-d0d90aca684d">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="b0eb2fc4-ad48-4d69-b2f2-4f60d7d1e5df" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Deliverables" IsSelected="True" Id="2500c933-ba4f-40c5-bb19-1733bbb520e1">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="544acf79-e816-4e04-ad5b-33c726c785c0" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Tasks" Id="7015c7f3-3d1a-4c21-9f22-a01d45b79f6f">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="4ffcddc2-8c5e-43ab-be90-557782e44676" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Action Items" Id="53874e0c-57dd-4369-8728-ed6f55b0d105">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="f27b133e-93fb-4092-b15f-d36d75ceb0dc" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Issues" Id="e64889b4-9637-4162-b01f-e2c4293d6eff">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="769f7e1e-cade-42f8-9c52-91810c9d83b3" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="efb7c9a3-e562-45e6-98fa-f71c4c587bcc">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Hint="Existing" Id="54653937-5810-4eff-8b89-76bbea500b2e" Panel.Bounds="177,391,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Project 1" Id="60ce7217-fce5-4e96-ada3-b56072bdfaaa" />
+                                        <Item Text="Project 2" Id="35d90f0b-1b3e-4460-bc17-cc0f35f78531" />
+                                        <Item Text="Project 3" Id="5a5b2c94-b64d-4204-b085-a9cf8f3a9060" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="efb7c9a3-e562-45e6-98fa-f71c4c587bcc">
+                            <Add.Item>
+                                <Button Text="New" Id="95692375-5081-47af-b7c3-16fe7ce57243" Panel.Bounds="608,391,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

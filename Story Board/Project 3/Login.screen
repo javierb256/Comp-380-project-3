@@ -1,0 +1,56 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.1000.13"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    Id="52cca23a-f33b-4fa8-b8e5-f928011fa91a">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="9bb26ffa-033e-4af1-8bbc-e4912f8e2a50">
+            <Content.Layers>
+                <Layer Id="59b89533-8fd6-4382-8cdb-25749e128f89" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="031abc23-5477-4e92-9a4b-ff78fd0894aa" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="013d75b0-673a-465f-ba48-da042bd83d35" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="e6b45ff6-0a33-409e-8c84-896c57178e95" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="12/05/2019 02:39:18" Id="97a05a05-70e0-4a99-8e8c-e10e807c3cf7">
+            <Scene.KeyFrames>
+                <KeyFrame Id="5ae173d5-edb1-4bc3-ad20-a7a5e5d2dfbf">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="59b89533-8fd6-4382-8cdb-25749e128f89">
+                            <Add.Item>
+                                <Image SourcePath="assets/img_avatar2.png" Id="8c5f055a-c11b-48f0-aa1a-640263f8872a" Panel.Bounds="308,19,408{5,2147483647},175{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="59b89533-8fd6-4382-8cdb-25749e128f89">
+                            <Add.Item>
+                                <TextBox Text="Username" Id="09d57bc3-6892-48a7-80b0-4e7c68723dc6" Panel.Bounds="308,289,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="59b89533-8fd6-4382-8cdb-25749e128f89">
+                            <Add.Item>
+                                <Title RichText="Login" Id="6c1084d7-9067-47da-9e14-9a7dac3468f8" Panel.Bounds="468,193,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="59b89533-8fd6-4382-8cdb-25749e128f89">
+                            <Add.Item>
+                                <TextBox Text="Password" Id="d86ed38a-dba9-416e-8d53-419b6326719e" Panel.Bounds="308,319,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="59b89533-8fd6-4382-8cdb-25749e128f89">
+                            <Add.Item>
+                                <Button Text="Login" Id="06f8e87e-bc43-4f96-bbb5-de52bfd0fe62" Panel.Bounds="468,366,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

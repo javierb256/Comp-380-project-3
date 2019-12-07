@@ -1,0 +1,264 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.1000.13"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    Id="63872f68-337a-4953-ad32-3401751196a5">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="43453575-1cf9-4330-9cc4-131a698cc697">
+            <Content.Layers>
+                <Layer Id="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="bb4b2043-3285-4b7a-bc11-e494d4bbaf10" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="68b302bd-3897-4f7f-8b50-568ec3f93419" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="aecd20f0-b1c0-49c2-90eb-ec647e580cb3" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="12/05/2019 06:04:18" Id="72e309d2-a486-4543-992d-153023c2a05e">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3bafc993-3abd-4beb-a793-fd23881c0fce">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Tabs Id="455c81f1-2a8d-420e-905e-6548e99d2f07" Panel.Bounds="325,9,373{5,2147483647},31{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Home" Id="f61d7e66-4dee-4591-b74a-9dbb4e94edf9">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="7c37fc95-801e-40a8-ae9f-c83c6ee4f5d4" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Deliverables" Id="28edc48c-eefd-44e1-b56b-ef6263cc4936">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="1d34423a-953a-400c-94f2-75ae70d6152c" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Tasks" IsSelected="True" Id="9296b130-f37d-4d85-814e-df05a5b32fd6">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="abd60050-7816-475a-9e43-32e69706eb82" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Action Items" Id="eac3d495-03a5-4095-8818-38e82603a215">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="c2075612-47a7-4e9b-9f51-374750758965" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Issues" Id="c8145972-d13a-4f3b-a9b2-5c414f9c55cd">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="ce0f040f-4c81-4457-8593-e273cca38f3a" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Grid FontSize="13" HeaderFontSize="13" Id="1866b13f-19d1-4d3c-aada-9710f7bff86a" Panel.Bounds="30,226,989{5,2147483647},138{5,2147483647}">
+                                    <Grid.HeaderRow>
+                                        <GridHeaderRow FontStyle="" Height="32" Id="635664ca-394d-428f-b286-9f1208931889" />
+                                    </Grid.HeaderRow>
+                                    <Grid.Columns>
+                                        <GridColumn ColumnId="edba163f-d182-4006-8648-85168a57eab9" Type="Text" Width="64" Id="72272d14-655a-42bd-ba29-585c8e64171a">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="edba163f-d182-4006-8648-85168a57eab9" Value="ID" Opacity="1" Id="f6bfd741-7bbe-482c-856b-7f55ad2803a2" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="62b464a1-e8b1-4850-a68b-20a6bedca3c5" Type="Text" Width="166" Id="8ed522b7-5963-437b-9e6e-67c3ca5c621d">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="62b464a1-e8b1-4850-a68b-20a6bedca3c5" Value="Name" Opacity="1" Id="8c73a3cb-7281-49d9-b4b2-d5adddd3bcc8" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="c7ee0177-18f8-4cbd-b8b7-7c12330443b4" Type="Text" Width="166" Id="7b1747c9-c9d9-49eb-a31d-ce6ff9d10bdc">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="c7ee0177-18f8-4cbd-b8b7-7c12330443b4" Value="Description" Opacity="1" Id="250519eb-ecd3-4b82-8bea-fc512a2f5f45" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="07a6d429-7a53-4771-a66f-a6bfec8b35c2" Type="Text" Width="166" Id="ac122dea-e388-4191-ac6c-b6c5f830e725">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="07a6d429-7a53-4771-a66f-a6bfec8b35c2" Value="Resource Assigned" Opacity="1" Id="bc663d24-7681-4763-abf6-690ab7c5d062" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="f0c5d620-f09b-4266-b4d0-52d0dd8f73be" Type="Text" Width="166" Id="e7941f61-c5f6-4386-b9eb-b0180f79bba4">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="f0c5d620-f09b-4266-b4d0-52d0dd8f73be" Value="Expected Start Date" Opacity="1" Id="ee873c38-e25c-4e0a-abea-32e0648eb30c" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="a40cf46d-eca5-4648-b72f-2cb865115f85" Type="Text" Width="166" Id="b741bc7c-382b-40b9-8b84-a8b692d1164a">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="a40cf46d-eca5-4648-b72f-2cb865115f85" Value="Expected End Date" Opacity="1" Id="ac013b28-18f1-44cf-bfaf-2709cf6551d0" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="08f3b755-2ab0-4335-837f-9f510cd886f2" Type="Text" Width="166" Id="d2682cfb-3977-4ff6-8a13-2b308a192b12">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="08f3b755-2ab0-4335-837f-9f510cd886f2" Value="Expected Duration" Opacity="1" Id="3b50a466-5ea2-4d6f-a694-9df4f5943b9c" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="adb31907-b77a-4246-b891-7ae4d00cd507" Type="Text" Width="166" Id="53bd1215-0708-46da-b108-7bc5242f828c">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="adb31907-b77a-4246-b891-7ae4d00cd507" Value="Resource Assigned" Opacity="1" Id="d0df5f00-90a7-412c-a8c4-c4fc293f8e09" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                    </Grid.Columns>
+                                    <Grid.Rows>
+                                        <GridRow Height="32" Id="fc0e2386-85b7-40e8-be80-2bbae0ce849d" />
+                                        <GridRow Height="32" Id="544fe425-c8c4-4297-94de-53df5cd7805b">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="edba163f-d182-4006-8648-85168a57eab9" Opacity="1" Id="923e8228-32f3-467f-840a-c9703e40ea9a" />
+                                                <GridCellData ColumnId="62b464a1-e8b1-4850-a68b-20a6bedca3c5" Opacity="1" Id="faea845d-9698-4384-8cd4-968f87743ac3" />
+                                                <GridCellData ColumnId="c7ee0177-18f8-4cbd-b8b7-7c12330443b4" Opacity="1" Id="0b4d7b1d-b352-4ef9-bc0c-deba0a62dcb4" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="36684a45-c023-4456-8527-f61ef3955766">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="edba163f-d182-4006-8648-85168a57eab9" Opacity="1" Id="8075121a-5ef5-4663-b3cf-0f766dc1cd14" />
+                                                <GridCellData ColumnId="62b464a1-e8b1-4850-a68b-20a6bedca3c5" Opacity="1" Id="a5da90d6-3482-4938-b77e-53b86a748899" />
+                                                <GridCellData ColumnId="c7ee0177-18f8-4cbd-b8b7-7c12330443b4" Opacity="1" Id="7cdc1c64-455b-4f95-83c8-c1a52674cb89" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="72b9b10b-675a-4052-8cab-3fc483c4a5bd">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="edba163f-d182-4006-8648-85168a57eab9" Opacity="1" Id="b91544a3-fa45-407f-b212-cff7215fc179" />
+                                                <GridCellData ColumnId="62b464a1-e8b1-4850-a68b-20a6bedca3c5" Opacity="1" Id="681965b9-8ee4-42df-a4c1-544294471075" />
+                                                <GridCellData ColumnId="c7ee0177-18f8-4cbd-b8b7-7c12330443b4" Opacity="1" Id="b3f79e2b-ec84-4c0f-aa2f-215f1afb7baa" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                    </Grid.Rows>
+                                </Grid>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Label RichText="A-1" Id="c407690f-440f-4a95-b2b1-8ab4e7e25ac6" Panel.Bounds="52,264,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Label RichText="A-2" Id="ecd410a9-8ed6-40d7-ab15-d389eae4bddb" Panel.Bounds="52,296,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Label RichText="A-3" Id="fdbace54-cd0f-4274-a6a2-08b2395a4998" Panel.Bounds="52,328,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Button Text="Create" Id="04d689fd-baac-4a49-8209-ecdb46965379" Panel.Bounds="30,167,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Button Text="Delete" Id="f0b1458f-cbf7-4a0e-9f01-3ef95564c67f" Panel.Bounds="125,167,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Button Text="Edit" Id="b2ad2db1-74d6-4a87-a8d5-a8b3b050a492" Panel.Bounds="224,167,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Icon CatalogId="fa-question-circle-o" Id="0d3319ca-ed51-4af1-b742-c1a934a37f98" Panel.Bounds="899,8,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Grid FontSize="13" HeaderFontSize="13" Id="fd48c227-a01b-4b9d-a02e-4d14e2a1b662" Panel.Bounds="304,60,500*{5,2147483647},67{5,2147483647}">
+                                    <Grid.HeaderRow>
+                                        <GridHeaderRow FontStyle="" Height="32" Id="922bed27-96ac-41d8-b9d0-76cd424b1025" />
+                                    </Grid.HeaderRow>
+                                    <Grid.Columns>
+                                        <GridColumn ColumnId="6c398da3-1211-4a19-9a4e-61ca12937ce8" Type="Text" Width="166" Id="0297f7ea-80f0-4e4a-9d24-f7a76ab8ab88">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="6c398da3-1211-4a19-9a4e-61ca12937ce8" Value="Day" Opacity="1" Id="8a532a4b-7e33-4529-ba2a-f3c953edc595" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="09c1e3f9-b133-4984-86ae-820bdff455a7" Type="Text" Width="166" Id="8d85642d-1f1b-4715-a92f-ca28b7deef63">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="09c1e3f9-b133-4984-86ae-820bdff455a7" Value="Month" Opacity="1" Id="f670a4f4-c825-41de-8996-791bc919a7bd" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="e8985660-edd3-4ccc-8dcc-2d91c6ed59df" Type="Text" Width="166" Id="741628a3-42d2-4e57-8433-8b7a8e3027ca">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="e8985660-edd3-4ccc-8dcc-2d91c6ed59df" Value="Year" Opacity="1" Id="22804dee-70e3-4005-b4c4-6a9daf194a88" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                    </Grid.Columns>
+                                    <Grid.Rows>
+                                        <GridRow Height="32" Id="6a448751-7790-4cae-a753-e130144e3d94">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6c398da3-1211-4a19-9a4e-61ca12937ce8" Value="4" Opacity="1" Id="7616d336-7c40-4e8f-ba75-3fa1f9896749" />
+                                                <GridCellData ColumnId="09c1e3f9-b133-4984-86ae-820bdff455a7" Value="09" Opacity="1" Id="2b5e2aed-b603-4eec-a1a6-36d92b553680" />
+                                                <GridCellData ColumnId="e8985660-edd3-4ccc-8dcc-2d91c6ed59df" Value="2020" Opacity="1" Id="a9bf54bf-82b4-429a-b7c7-16c310d6a5d6" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="0ea7fa23-888b-4422-b2c3-94301e4adcda">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6c398da3-1211-4a19-9a4e-61ca12937ce8" Value=" gubergren duo diam dolor." Opacity="1" Id="caf2ef93-1545-4ec0-a3ce-406c3b507b19" />
+                                                <GridCellData ColumnId="09c1e3f9-b133-4984-86ae-820bdff455a7" Value=" sit duis sed rebum." Opacity="1" Id="18ff9177-71d3-4536-8988-397a4da64558" />
+                                                <GridCellData ColumnId="e8985660-edd3-4ccc-8dcc-2d91c6ed59df" Value=" duo et praesent consequat." Opacity="1" Id="d33fb628-4888-4e00-a212-601e688f8b6f" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="7" Id="0bd9c681-50d5-4d30-b1aa-7b8ec79bb3e6">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6c398da3-1211-4a19-9a4e-61ca12937ce8" Value=" facer sadipscing stet stet." Opacity="1" Id="91680ac4-98bc-4021-85ce-9d00afe23162" />
+                                                <GridCellData ColumnId="09c1e3f9-b133-4984-86ae-820bdff455a7" Value=" minim eirmod est duo." Opacity="1" Id="3db4c6c5-a951-4306-9cb7-652bb7e38fd0" />
+                                                <GridCellData ColumnId="e8985660-edd3-4ccc-8dcc-2d91c6ed59df" Value=" invidunt no nisl enim." Opacity="1" Id="e264cc66-244b-474c-8c82-8513e8d1cc3d" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                    </Grid.Rows>
+                                </Grid>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bb4b2043-3285-4b7a-bc11-e494d4bbaf10">
+                            <Add.Item>
+                                <Arrow Thickness="3" IsClosed="True" RotationAngle="61.1892062570269" Id="ffbffb2d-206b-412a-8b2d-d7203f50e500" Panel.Bounds="604,122,55,100">
+                                    <Arrow.StartPoint>
+                                        <Point Y="40" Id="ac4b91c4-dd76-4b94-bd34-afeb860d1cea" />
+                                    </Arrow.StartPoint>
+                                    <Arrow.Segments>
+                                        <Segment Id="da18db3a-1538-4041-9314-a0fc464f76d8">
+                                            <Segment.EndPoint>
+                                                <Point X="45.3616250045569" Y="122.475681826467" Id="8da85d1f-5041-4360-8396-207c40210b43" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="fc93c6eb-c430-461e-93a0-9c7082e62d76">
+                                            <Segment.EndPoint>
+                                                <Point X="36.5994659177904" Y="127.294869324189" Id="c8335f17-ea01-4338-8cf2-346dc0be3cab" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="2eadc566-27ce-454b-8c37-c89015022c06">
+                                            <Segment.EndPoint>
+                                                <Point X="55" Y="140" Id="e65371a1-8e2f-4820-ae1c-8257e25bbcb1" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="4f9271e8-1a67-44dd-bd43-4b9f98bd548b">
+                                            <Segment.EndPoint>
+                                                <Point X="54.1237840913233" Y="117.656494328745" Id="89d8feff-4f90-4a10-98ba-fa80770eb8ba" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="bd826878-6767-4cc3-979a-b63c7a8a7a0e">
+                                            <Segment.EndPoint>
+                                                <Point X="45.3616250045569" Y="122.475681826467" Id="edb8ac25-137b-4465-b9ea-582997160d2b" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="bf77c60e-7874-470a-9a06-a66acdc1698e">
+                                            <Segment.EndPoint>
+                                                <Point Y="40" Id="8dcdc3d7-1498-4adc-87df-d9468d1052e0" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Arrow.Segments>
+                                </Arrow>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
