@@ -42,7 +42,7 @@
 table{
     width:100%;
     border-collapse: collapse;
-    overflow-x:auto;
+    
 }
 
 table, th, td{

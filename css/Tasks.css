@@ -54,12 +54,15 @@ th{
     background-color:#4CAF50;
     color:white;
     height:50px;
+    width: 100%;
 }
 
 th, td{
     padding:10px;
+    padding-right: 50px;
 }
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
