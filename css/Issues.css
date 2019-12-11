@@ -24,8 +24,10 @@
 .flex-container{
     display:flex;
     flex-direction: row;
+
     
 }
+
 
 .flex-container >div{
     padding: 16px;
@@ -35,6 +37,10 @@
     margin-right:30px;
     margin-bottom: 30px;
     background-color:#d3d3d3;
+}
+
+.flex-container>div:hover{
+    background-color:red;
 }
 
 table{

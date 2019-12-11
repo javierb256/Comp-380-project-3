@@ -58,7 +58,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
                             <Add.Item>
-                                <Grid FontSize="13" HeaderFontSize="13" Id="1866b13f-19d1-4d3c-aada-9710f7bff86a" Panel.Bounds="30,226,989{5,2147483647},138{5,2147483647}">
+                                <Grid FontSize="13" HeaderFontSize="13" Id="1866b13f-19d1-4d3c-aada-9710f7bff86a" Panel.Bounds="30,225,1184{5,2147483647},138{5,2147483647}">
                                     <Grid.HeaderRow>
                                         <GridHeaderRow FontStyle="" Height="32" Id="635664ca-394d-428f-b286-9f1208931889" />
                                     </Grid.HeaderRow>
@@ -95,12 +95,22 @@
                                         </GridColumn>
                                         <GridColumn ColumnId="08f3b755-2ab0-4335-837f-9f510cd886f2" Type="Text" Width="166" Id="d2682cfb-3977-4ff6-8a13-2b308a192b12">
                                             <GridColumn.CellData>
-                                                <GridCellData ColumnId="08f3b755-2ab0-4335-837f-9f510cd886f2" Value="Expected Duration" Opacity="1" Id="3b50a466-5ea2-4d6f-a694-9df4f5943b9c" />
+                                                <GridCellData ColumnId="08f3b755-2ab0-4335-837f-9f510cd886f2" Value="Actual Start Date" Opacity="1" Id="3b50a466-5ea2-4d6f-a694-9df4f5943b9c" />
                                             </GridColumn.CellData>
                                         </GridColumn>
                                         <GridColumn ColumnId="adb31907-b77a-4246-b891-7ae4d00cd507" Type="Text" Width="166" Id="53bd1215-0708-46da-b108-7bc5242f828c">
                                             <GridColumn.CellData>
-                                                <GridCellData ColumnId="adb31907-b77a-4246-b891-7ae4d00cd507" Value="Resource Assigned" Opacity="1" Id="d0df5f00-90a7-412c-a8c4-c4fc293f8e09" />
+                                                <GridCellData ColumnId="adb31907-b77a-4246-b891-7ae4d00cd507" Value="Actual End Date" Opacity="1" Id="d0df5f00-90a7-412c-a8c4-c4fc293f8e09" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="c2a1abe8-f070-4426-ab04-6c0a325f7e0c" Type="Text" Width="166" Id="d3471e79-f83f-4e68-abeb-7cf0f394fcef">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="c2a1abe8-f070-4426-ab04-6c0a325f7e0c" Value="Actual Duration" Opacity="1" Id="0ccb5f87-ac91-4349-ab03-4b62532eebf2" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="b41c73c8-2228-4d17-82e6-3f5041b2272e" Type="Text" Width="166" Id="e3f4329d-4ee7-4fb1-b7ac-c4882f6cd633">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="b41c73c8-2228-4d17-82e6-3f5041b2272e" Value="Effort Completed" Opacity="1" Id="8a0f007e-fa21-4d69-8e1b-4e0fb1471216" />
                                             </GridColumn.CellData>
                                         </GridColumn>
                                     </Grid.Columns>
@@ -254,6 +264,100 @@
                                         </Segment>
                                     </Arrow.Segments>
                                 </Arrow>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Grid FontSize="13" HeaderFontSize="13" Id="c44f2bfa-a4d3-4357-a139-a48577ad1736" Panel.Bounds="30,387,500*{5,2147483647},67{5,2147483647}">
+                                    <Grid.HeaderRow>
+                                        <GridHeaderRow FontStyle="" Height="32" Id="2e639b31-6a87-4ac8-9c00-865a090336c1" />
+                                    </Grid.HeaderRow>
+                                    <Grid.Columns>
+                                        <GridColumn ColumnId="5b9cf046-11f7-4ab0-a2e6-8dd4fc5a395d" Type="Text" Width="166" Id="5ee6c767-452a-4714-9d5a-7a4a8369ff75">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="5b9cf046-11f7-4ab0-a2e6-8dd4fc5a395d" Value="Actual Duration" Opacity="1" Id="9ef3efe2-7c7e-4db2-927b-b5d1507c2e25" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="6f15fc40-21ac-4afe-89fe-7a81c59da842" Type="Text" Width="166" Id="946abd59-7aef-44d3-aeed-bb627d1713de">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="6f15fc40-21ac-4afe-89fe-7a81c59da842" Value="Effort Completed" Opacity="1" Id="871fbea4-64bf-45e3-b171-6c6d7b42eed1" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="0f6b3a87-af60-43a1-9fad-92a5bbb0fa45" Type="Text" Width="166" Id="aa3e3ec4-fc09-4f51-8b44-8325e61396d9">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="0f6b3a87-af60-43a1-9fad-92a5bbb0fa45" Value="Actual Effort" Opacity="1" Id="aacf695e-592f-47f7-a928-595a462a3cb5" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="43823ce9-27b4-4bf4-bb36-4eb50ca4398a" Type="Text" Width="166" Id="f8b7669b-2b3a-4a33-be01-830850f68f15">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="43823ce9-27b4-4bf4-bb36-4eb50ca4398a" Value="Percent Complete" Opacity="1" Id="48cf12d6-adcb-4168-863c-2cff06340f1e" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="4116f3e2-b29a-4bdd-a9c0-cf884e1226e9" Type="Text" Width="166" Id="e865c5c1-252c-48d8-af50-b45181bb15d6">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="4116f3e2-b29a-4bdd-a9c0-cf884e1226e9" Value="Predecessor Tasks" Opacity="1" Id="dfa05528-bf0a-41b5-a486-a21ec2b20d64" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="3a6f68d9-b48b-4349-aac2-059242601992" Type="Text" Width="166" Id="97c57d1b-4d08-4982-ae27-6132c1062ab1">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="3a6f68d9-b48b-4349-aac2-059242601992" Value="Successor Tasks" Opacity="1" Id="63b155ab-8bc3-4987-bfec-caeb48612caf" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="6865480c-b0d4-498b-803c-387e18553354" Type="Text" Width="166" Id="413a57ff-b18b-4628-a3e6-84f8f9b9f9f8">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="6865480c-b0d4-498b-803c-387e18553354" Value="List of Issues" Opacity="1" Id="64c22ac1-2b0b-48ba-9b68-54a9c99bde97" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                    </Grid.Columns>
+                                    <Grid.Rows>
+                                        <GridRow Height="32" Id="20b74323-2884-4d0a-8fca-f1b7f28657c1">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="0f6b3a87-af60-43a1-9fad-92a5bbb0fa45" Value=" " Opacity="1" Id="44fa20df-09b1-4ed3-8304-f78191867502" />
+                                                <GridCellData ColumnId="43823ce9-27b4-4bf4-bb36-4eb50ca4398a" Opacity="1" Id="bdcdd38e-8866-46a8-b3e7-209b8c8885c3" />
+                                                <GridCellData ColumnId="4116f3e2-b29a-4bdd-a9c0-cf884e1226e9" Opacity="1" Id="98ddf9a5-6aa7-49ab-937c-743972b8fcaf" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="5fa2b7e0-90f3-48c6-a4d4-7613ef580e34">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="0f6b3a87-af60-43a1-9fad-92a5bbb0fa45" Value=" autem eirmod ipsum duis." Opacity="1" Id="0fa2d4dc-2c69-42e3-a7b3-020d8f2c5aa6" />
+                                                <GridCellData ColumnId="43823ce9-27b4-4bf4-bb36-4eb50ca4398a" Value=" labore nulla accusam dolore." Opacity="1" Id="ca535e91-e216-49a6-99d4-a4e55f389721" />
+                                                <GridCellData ColumnId="4116f3e2-b29a-4bdd-a9c0-cf884e1226e9" Value=" invidunt facilisis no invidunt." Opacity="1" Id="9e0119e4-78ca-495e-9969-ca055afcec18" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="3a08aac0-0f3d-49d9-a4b2-53112b653327">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="0f6b3a87-af60-43a1-9fad-92a5bbb0fa45" Value=" at duo dolores aliquip." Opacity="1" Id="31328a5c-2360-4878-b34a-5e352cfa3235" />
+                                                <GridCellData ColumnId="43823ce9-27b4-4bf4-bb36-4eb50ca4398a" Value=" et duo lobortis invidunt." Opacity="1" Id="cbcf0b9b-7c52-44bd-b368-2824830f14ba" />
+                                                <GridCellData ColumnId="4116f3e2-b29a-4bdd-a9c0-cf884e1226e9" Value=" eos labore nisl stet." Opacity="1" Id="1e499bcb-3552-4a85-9ad4-d310b87da859" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                    </Grid.Rows>
+                                </Grid>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Button Text="Add Resource" Id="a5051d0f-ada4-4970-be6f-fb7c2eac3981" Panel.Bounds="363,260,100{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Button Text="Add Predecessor" Id="74eff7be-9a6c-4764-a93b-c173a2a37323" Panel.Bounds="686,416,146{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Button Text="Add Successor" Id="fa05092a-bf21-4983-be6b-dd8b625a6d9e" Panel.Bounds="862,419,110{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Button Text="Gantt Chart" Id="aae8b857-05c8-40f9-b8fc-22287f4c5543" Panel.Bounds="727,179,93{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a7e1ca7a-4ff1-4761-b4b3-ab01751a6a82">
+                            <Add.Item>
+                                <Button Text="Add Sumary Task" Id="2593fab1-a493-4a77-8a82-a3684fab46c5" Panel.Bounds="834,179,123{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

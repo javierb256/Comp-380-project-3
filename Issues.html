@@ -3,6 +3,42 @@
         <title>Issues</title>
         <link rel="stylesheet" href="css/Issues.css" type="text/css">
         <script src="javascript/Issues.js"></script>
+        <script src="javascript/jquery-3.4.1.min.js"></script>
+
+        <script>
+   
+
+            $(document).ready(function() {
+                $("#edit").on('click', function(){
+                    $(this).html($(this).html() == 'Edit' ? 'Save' : 'Edit')
+                if($(this).html() == 'Edit'){
+                    $("#edit").on('click', function(){
+                    $('td').prop('contenteditable', true)
+                });
+                
+             } else if($(this).html() == 'Save') {
+                    $("#edit").on('click', function(){
+                      $('td').prop('contenteditable', false)
+                      
+                });
+            }
+            $(this).html($(this).html() == 'Edit' ? 'Save' : 'Edit')
+                });
+
+
+            });
+
+            $(document).ready(function() {
+                $("#edit").on('click', function(){
+                    $('td').prop('contenteditable', true);
+
+                    $(this).html($(this).html() == 'Edit' ? 'Save' : 'Edit')
+                });
+
+
+            });
+
+            </script>
     </head>
 
 
@@ -19,7 +55,7 @@
         <div class="flex-container">
             <div onclick="addRow()">Create</div>
             <div onclick="deleteRow()">Delete</div>
-            <div>Edit</div>
+            <div id = edit >Edit</div>
         </div>
 
 
@@ -40,38 +76,23 @@
             <th>List of Decisions</th>
 
             <tr>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
+                <td contenteditable="false"></td>
             </tr>
 
-            <tr>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-                <td contenteditable="true"></td>
-            </tr>
+            
 
     </body>
 </html>

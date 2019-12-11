@@ -39,3 +39,4 @@ function deleteRow() {
     var table = document.getElementById("myTable");
     var row = table.deleteRow(1);
 }
+

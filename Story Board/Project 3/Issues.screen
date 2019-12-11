@@ -37,7 +37,7 @@
                                                 <Container ClipToContainer="True" Id="88da2147-02fc-4350-b25e-46bbce2c55d3" />
                                             </TabItem.Content>
                                         </TabItem>
-                                        <TabItem Header="Tasks" IsSelected="True" Id="c8462aa2-aef0-468d-b20a-6b5d32bb9dbd">
+                                        <TabItem Header="Tasks" Id="c8462aa2-aef0-468d-b20a-6b5d32bb9dbd">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="f094393c-49a3-4d3b-bf5d-9923fd984f7c" />
                                             </TabItem.Content>
@@ -47,7 +47,7 @@
                                                 <Container ClipToContainer="True" Id="1d44db69-2ea3-4182-8d37-7af844462b6e" />
                                             </TabItem.Content>
                                         </TabItem>
-                                        <TabItem Header="Issues" Id="e1289bad-abc3-461c-b909-bb081a74b926">
+                                        <TabItem Header="Issues" IsSelected="True" Id="e1289bad-abc3-461c-b909-bb081a74b926">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="357a5c9c-4e71-49a2-868e-a479642b38dd" />
                                             </TabItem.Content>
@@ -58,7 +58,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="de62b35f-99a0-4859-a152-e2ef7248effb">
                             <Add.Item>
-                                <Grid FontSize="13" HeaderFontSize="13" Id="c4f36cbc-cc84-4612-a7d0-3fb46272457b" Panel.Bounds="30,226,989{5,2147483647},129{5,2147483647}">
+                                <Grid FontSize="13" HeaderFontSize="13" Id="c4f36cbc-cc84-4612-a7d0-3fb46272457b" Panel.Bounds="30,226,1245{5,2147483647},151{5,2147483647}">
                                     <Grid.HeaderRow>
                                         <GridHeaderRow FontStyle="" Height="32" Id="960a7f35-1726-4329-90d1-01844123d47e" />
                                     </Grid.HeaderRow>
@@ -164,6 +164,120 @@
                         <Add Property="Panel.Children" Target="de62b35f-99a0-4859-a152-e2ef7248effb">
                             <Add.Item>
                                 <Icon CatalogId="fa-question-circle-o" Id="fd7c9a81-65cd-4fc2-876b-649742820aac" Panel.Bounds="907,9,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="de62b35f-99a0-4859-a152-e2ef7248effb">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Hint="Priority" FontStyle="Bold" Id="d66bfefa-0066-47ea-ac45-1a17e6a672d1" Panel.Bounds="430,49,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Low" Id="7a2414e4-9911-477c-8e9b-f6cb63f03264" />
+                                        <Item Text="Medium" Id="b4840e9e-c103-44e8-9138-c9bf1a72a805" />
+                                        <Item Text="High" Id="0fe9e388-cdff-47d3-82eb-3f41f06c99cf" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="7bca4701-297e-465b-bd29-74f8aded6951">
+                            <Add.Item>
+                                <Arrow Thickness="3" IsClosed="True" RotationAngle="97.1250163489018" Id="2aa4f9ee-149e-4b05-a4b1-27e017bf86bd" Panel.Bounds="477,173,20,40">
+                                    <Arrow.StartPoint>
+                                        <Point X="31" Y="31" Id="db4335b1-c3c7-47da-b787-c313f2fe2b06" />
+                                    </Arrow.StartPoint>
+                                    <Arrow.Segments>
+                                        <Segment Id="6a7c3376-dce5-4f1b-be9c-4d3cfb133015">
+                                            <Segment.EndPoint>
+                                                <Point X="30.4998438232041" Y="51.0062470718375" Id="00d3934c-7927-45d6-a2e0-53383af748c3" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="fef1464c-a010-4356-8a89-49054d98851a">
+                                            <Segment.EndPoint>
+                                                <Point X="20.5029673591228" Y="50.7563251602355" Id="ce4dd2a0-924f-4857-be3d-e44984063ce0" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="08aab4c0-f482-41ad-b4df-466eacffa23a">
+                                            <Segment.EndPoint>
+                                                <Point X="30" Y="71" Id="1729d6db-0283-46f0-96fb-64317fce323b" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="be3bb790-8791-40e0-997b-a4bcce814cdd">
+                                            <Segment.EndPoint>
+                                                <Point X="40.4967202872853" Y="51.2561689834396" Id="7f963038-e0d7-4d3e-829f-7e666ae27fc3" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="23f51bbf-2daa-4f24-bdf1-6b2fc0861934">
+                                            <Segment.EndPoint>
+                                                <Point X="30.4998438232041" Y="51.0062470718375" Id="1b99ce59-acb3-44e3-882e-0461c95d8d0c" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="7185d6a3-e20e-4447-af9b-89032c391d13">
+                                            <Segment.EndPoint>
+                                                <Point X="31" Y="31" Id="b5ca4bce-c815-4dbf-974a-40c4f4319713" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Arrow.Segments>
+                                </Arrow>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="de62b35f-99a0-4859-a152-e2ef7248effb">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Hint="Severity" FontStyle="Bold" Id="cf379c87-a5be-47c6-8c20-583a136608db" Panel.Bounds="593,49,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Low" Id="7ce0180c-c64d-4e17-944d-de04b2e56be4" />
+                                        <Item Text="Medium" Id="ecd30f2d-2cbd-406e-8ce5-3ef740c6eb00" />
+                                        <Item Text="High" Id="de027c1b-6779-490f-b120-8a981cadb4ea" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="7bca4701-297e-465b-bd29-74f8aded6951">
+                            <Add.Item>
+                                <Arrow Thickness="3" IsClosed="True" RotationAngle="91.1457628381751" Id="3d0d5c8e-7bee-405a-b8f9-19e5c5a9db03" Panel.Bounds="649,173,20,50">
+                                    <Arrow.StartPoint>
+                                        <Point X="33" Y="40" Id="b6422a36-87ad-490c-9086-e724a34e3ab2" />
+                                    </Arrow.StartPoint>
+                                    <Arrow.Segments>
+                                        <Segment Id="fd70177b-bbac-44a3-a667-fa1ab813a13a">
+                                            <Segment.EndPoint>
+                                                <Point X="32.399920023992" Y="70.0039988003999" Id="2f8dc869-864e-40b0-bb6c-f9690d438a20" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="58ddb87e-b978-4332-aa44-da1fe134323a">
+                                            <Segment.EndPoint>
+                                                <Point X="22.4019194241919" Y="69.8040387884039" Id="7d36040a-dcc4-4231-a680-273eaf15c2d1" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="8da570c5-9268-4020-bd20-05498083824b">
+                                            <Segment.EndPoint>
+                                                <Point X="32" Y="90" Id="b6693fe6-9ac0-4282-a3a9-b314c2a614ff" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="d26ddbc6-d804-4cc5-84fe-71c9af64a3b2">
+                                            <Segment.EndPoint>
+                                                <Point X="42.3979206237921" Y="70.2039588123959" Id="c906c3ba-4962-4c4d-9418-17a76600b753" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="dfef808c-9630-4f44-9cfc-8df69b943fe6">
+                                            <Segment.EndPoint>
+                                                <Point X="32.399920023992" Y="70.0039988003999" Id="a2defcd9-ec9b-4df9-b111-36f38cece18e" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="04f7b913-5b05-436e-a5e2-08da6c238f88">
+                                            <Segment.EndPoint>
+                                                <Point X="33" Y="40" Id="fd3d0649-0f51-4e67-ad82-2bfbaa004962" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Arrow.Segments>
+                                </Arrow>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="de62b35f-99a0-4859-a152-e2ef7248effb">
+                            <Add.Item>
+                                <Button Text="Add Action Item" Id="cbc82c0a-2a85-4bce-b03b-b188be7bb495" Panel.Bounds="674,185,110{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="de62b35f-99a0-4859-a152-e2ef7248effb">
+                            <Add.Item>
+                                <Button Text="Add Decisions" Id="7c7c0301-15aa-46cc-b9b9-fb0e189b9d3d" Panel.Bounds="789,185,120{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
