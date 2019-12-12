@@ -23,7 +23,7 @@ function addRow(){
 
 
 
-    cell1.innerHTML = "A-"+count;
+    cell1.innerHTML = "T-"+count;
     cell2.innerHTML = "";
     cell3.innerHTML = "";
     cell4.innerHTML = "";

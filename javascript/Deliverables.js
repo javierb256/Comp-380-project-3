@@ -9,7 +9,7 @@ function addRow(){
     var cell5 = row.insertCell(4);
     var cell6 = row.insertCell(5);
 
-    cell1.innerHTML = "A-"+count;
+    cell1.innerHTML = "D-"+count;
     cell2.innerHTML = "";
     cell3.innerHTML = "";
     cell4.innerHTML = "";

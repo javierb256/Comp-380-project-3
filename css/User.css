@@ -77,8 +77,16 @@
     width:200px;
     margin-top:200px;
     margin-right: 200px;
+    margin-bottom:100px;
 }
 
 #button2:hover{
     background-color: #3e8e41;
+}
+
+#logout{
+    
+    margin-top:100px;
+    margin-left:570px;
+
 }

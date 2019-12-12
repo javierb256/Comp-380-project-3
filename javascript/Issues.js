@@ -19,7 +19,7 @@ function addRow(){
    
 
 
-    cell1.innerHTML = "A-"+count;
+    cell1.innerHTML = "I-"+count;
     cell2.innerHTML = "";
     cell3.innerHTML = "";
     cell4.innerHTML = "";
@@ -41,6 +41,11 @@ function addRow(){
 function deleteRow() {
     var table = document.getElementById("myTable");
     var row = table.deleteRow(-1);
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
     count--;
+    
 }
+
+
 
