@@ -357,6 +357,52 @@
                                 <Button Text="Add Requirement" Id="f3df4697-4e47-46b4-b7b1-9e57fb97490f" Panel.Bounds="613,259,127{5,2147483647},27{5,2147483647}" />
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="3d43987c-5ef6-451e-8ed5-4e4a40cb056a">
+                            <Add.Item>
+                                <Arrow Thickness="3" IsClosed="True" RotationAngle="101.659292653523" Id="801e2ca8-6736-4346-88a8-32da1f6a9709" Panel.Bounds="589,14,19,63">
+                                    <Arrow.StartPoint>
+                                        <Point X="45" Id="b9be7dd0-4429-4781-948f-cde3de9753cd" />
+                                    </Arrow.StartPoint>
+                                    <Arrow.Segments>
+                                        <Segment Id="f537b60b-2f1e-4148-a7ff-54e4a74757f6">
+                                            <Segment.EndPoint>
+                                                <Point X="36.0418305745574" Y="43.4126672156066" Id="f7c83be8-de83-4e3b-97ff-da8ed5d0122d" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="20f73201-94b9-4054-b27b-3eadf1dd988d">
+                                            <Segment.EndPoint>
+                                                <Point X="26.2481641823607" Y="41.3917519283279" Id="d9ff29a6-7f20-4ef9-a0ba-6de73bf8c34e" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="19084de8-3b75-4a9e-bf85-f12b89c538bd">
+                                            <Segment.EndPoint>
+                                                <Point X="32" Y="63" Id="e2eadff7-88aa-4402-b055-23d6f35f8efd" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="ddd03ffe-a357-4409-b853-20e32e9d2f58">
+                                            <Segment.EndPoint>
+                                                <Point X="45.8354969667541" Y="45.4335825028853" Id="6b73e87b-f0d1-4258-a07c-815692ff61dd" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="6dd1b1a0-fbdd-4496-b7a0-590588a2bd7a">
+                                            <Segment.EndPoint>
+                                                <Point X="36.0418305745574" Y="43.4126672156066" Id="84741e70-f623-4295-8b6c-0517579b8d56" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="ce2f6720-0771-4432-a1b3-da673e665365">
+                                            <Segment.EndPoint>
+                                                <Point X="45" Id="105a557b-b53b-4a98-9e6b-c503e3d57c82" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Arrow.Segments>
+                                </Arrow>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a68f0bf2-bc4a-4254-8858-23392460fed1">
+                            <Add.Item>
+                                <Label RichText="Month is determined by the &#xD;&#xA;current month of the users&#xD;&#xA;machine" Id="b251d7fa-c79c-41c2-9fc6-2fca53462138" Panel.Bounds="613,14,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

@@ -38,6 +38,37 @@
 
             });
 
+            $(document).ready(function() {
+                $("#edit2").on('click', function(){
+                    $(this).html($(this).html() == 'Edit' ? 'Save' : 'Edit')
+                if($(this).html() == 'Edit'){
+                    $("#edit2").on('click', function(){
+                    $('td').prop('contenteditable', true)
+                });
+                
+             } else if($(this).html() == 'Save') {
+                    $("#edit2").on('click', function(){
+                      $('td').prop('contenteditable', false)
+                      
+                });
+            }
+            $(this).html($(this).html() == 'Edit' ? 'Save' : 'Edit')
+                });
+
+
+            });
+
+            $(document).ready(function() {
+                $("#edit2").on('click', function(){
+                    $('td').prop('contenteditable', true);
+
+                    $(this).html($(this).html() == 'Edit' ? 'Save' : 'Edit')
+                });
+
+
+            });
+
+
             </script>
 
     </head>
@@ -64,6 +95,8 @@
                     the cells. After selecting 'Edit' <br>click on a cell to type inside. After editing press
                     the button again to save your changes. <br>When you click on 'Delete' it will delete
                     the last row of the table.
+
+            <button id="Mile">Milestones</button>
                     
         </div>
 
@@ -88,10 +121,30 @@
                 <th>List of Issues</th>
             </tr>
            
-            
-
-
         </table>
+
+        <div id="title2" >
+                <h1>Milestones</h1>
+            </div>
+    
+            <div class="flex-container">
+                    <div onclick="addRow2()">Create</div>
+        
+                    <div  class="popup" onclick="deleteRow2()">Delete
+                
+                    </div>
+        
+                    <div id ="edit2">Edit</div>
+                            
+                </div>
+    
+            <table id="milestoneTable">
+                <th>Name</th>
+                <th>Completion date</th>
+    
+                
+    
+            </table>
 
     </body>
 </html>

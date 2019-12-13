@@ -49,3 +49,22 @@ function deleteRow() {
     var row = table.deleteRow(-1);
     count--;
 }
+
+function addRow2(){
+    var table = document.getElementById("milestoneTable");
+    var row = table.insertRow(-1);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+
+    cell1.innerHTML = "";
+    cell2.innerHTML = "";
+    
+
+
+    
+}
+
+function deleteRow2() {
+    var table = document.getElementById("milestoneTable");
+    var row = table.deleteRow(-1);
+}
