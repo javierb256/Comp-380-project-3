@@ -68,3 +68,9 @@ function deleteRow2() {
     var table = document.getElementById("milestoneTable");
     var row = table.deleteRow(-1);
 }
+
+function pic(){
+    var pic ="images\5c547adb347adc02bb21ab34_Free Excel gantt chart header image (1).png"
+    document.getElementById('gant').src=pic.replace('90x90', '225x225');
+    document.getElementById('gant').style.display='block';
+}
